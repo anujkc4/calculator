@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #0a0a0a, #1e1e1e);
+  color: #ffffff;
+  overflow: hidden;
+  color: #ffff;
+}
+.calcu-body {
+  height: 80vh;
+  width: 25vw;
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: linear-gradient(225deg, #0f0f0f, #1a1a1a);
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08),
+    0 0 30px rgba(0, 255, 255, 0.04), 0 0 50px rgba(255, 255, 255, 0.03);
+  z-index: 2;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-msg {
+  height: 100px;
+  width: 350px;
+  border: 2px solid white;
+  border-radius: 10px;
+  opacity: 0.6;
+  font-weight: bolder;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+  overflow: hidden;
+}
+.buttons {
+  height: 100%;
+  gap: 10px;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.btn {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 3px 3px 8px #0d0d0d, -3px -3px 8px #2c2c2c;
+}
+#btn-1,
+#btn-2,
+#btn-17 {
+  background-color: #b75b10;
+}
+
+#btn-20:hover {
+  background-color: #b75b10;
+  box-shadow: 0 0 10px #8cff00, 0 0 20px #c8ff00;
+  transform: scale(1.05);
+}
+
+.btn:hover {
+  background-color: #1f2a3a;
+  box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #0080ff;
+}
+#btn-1:hover,
+#btn-2:hover,
+#btn-17:hover {
+  background-color: #b75b10;
+  box-shadow: 0 0 10px #8cff00, 0 0 20px #c8ff00;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#btn-1:active,
+#btn-2:active,
+#btn-8:active,
+#btn-17:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #c8ff00;
+}
+
+#btn-3:active,
+#btn-4:active,
+#btn-8:active,
+#btn-12:active,
+#btn-16:active,
+#btn-20:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #0080ff;
+}
